@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone </title>
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- * Bs Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  </head>
+  <body>
+    <!-- * Layout -->
+    <div class="layout">
+      <!-- * Aside -->
+      <aside>
+        <!-- Logo -->
+        <figure>
+          <img src="./image/logo.png" alt="logo" />
+          <span>Spotify</span>
+        </figure>
+
+        <!-- Navigation -->
+        <nav>
+          <!-- Nav Item -->
+          <a href="#">
+            <i class="bi bi-house"></i>
+            <span>Ana sayfa</span>
+          </a>
+          <!-- Nav Item -->
+          <a href="#">
+            <i class="bi bi-search"></i>
+            <span>Arama</span>
+          </a>
+          <!-- Nav Item -->
+          <a href="#">
+            <i class="bi bi-collection"></i>
+            <span>Kütüphaneler</span>
+          </a>
+          <!-- Nav Item -->
+          <a href="#">
+            <i class="bi bi-music-note-list"></i>
+            <span>Çalma Listesi</span>
+          </a>
+          <!-- Nav Item -->
+          <a href="#">
+            <i class="bi bi-heart"></i>
+            <span>Beğenilen Şarkılar</span>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- * Main -->
+      <main>
+        <!-- * Header -->
+        <header>
+          <!-- Form -->
+          <form>
+            <input type="search" placeholder="müzik arayınız ..." />
+            <button type="submit"><i class="bi bi-search"></i></button>
+          </form>
+
+          <!-- Navigation -->
+          <nav>
+            <a href="#">Premium</a>
+            <a href="#">Destek</a>
+            <a href="#">Oturum Aç</a>
+          </nav>
+        </header>
+
+        <!-- * Music Wrapper -->
+        <section class="music-wrapper">
+          <!-- Title -->
+          <h1 id="music-title">Popüler Müzikler</h1>
+
+          <!-- Music List -->
+          <div class="music-list">
+            <!-- <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div> -->
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- * Player -->
+    <section class="player">
+      <!-- Info -->
+      <div class="info">
+        <img class="" src="./image/plak.png" alt="music-image" />
+
+        <div></div>
+      </div>
+
+      <!-- Audio -->
+      <div class="audio-wrapper">
+        <audio src="" controls></audio>
+      </div>
+
+      <!-- İkonlar -->
+      <div class="icons">
+        <i class="bi bi-apple-music"></i>
+        <i class="bi bi-music-note-list"></i>
+        <i class="bi bi-pc-display"></i>
+      </div>
+    </section>
+
+    <!-- * Js Bağlantı -->
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

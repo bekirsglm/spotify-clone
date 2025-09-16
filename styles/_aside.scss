@@ -1,0 +1,65 @@
+@use "./variables";
+@use "./mixin";
+
+aside {
+    background-color: variables.$grayColor;
+    padding: 20px;
+    border-radius: 10px;
+     @include mixin.tablet {
+        padding: 20px 10px;
+     }
+    span {
+        @include mixin.tablet {
+            display: none;
+        }
+    }
+// logo
+figure {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    img {
+        width: 40px;
+    }
+    span {
+        font-size: 25px;
+        font-weight: bold;
+        color: variables.$greenColor;
+
+    }
+}
+
+
+
+// navigation
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+    
+    a{
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: variables.$greenColor;
+        }
+         @include mixin.tablet {
+                 i {
+            font-size: 23px;
+        }
+         }
+            
+   
+       
+        
+    }
+}
+}
