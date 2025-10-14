@@ -1,34 +1,49 @@
 # Spotify Clone 🎵
 
-Spotify'ın temel özelliklerini taklit eden modern bir müzik uygulaması. Popüler şarkıları görüntüleyebilir, arama yapabilir ve müzik dinleyebilirsiniz.
-Özellikler
+Spotify Klonu 🎵
 
-🎧 Popüler müzikleri listeleme
+Bu, HTML, JavaScript ve SCSS kullanılarak yapılmış bir Spotify Klonu projesidir. Spotify arayüzünü taklit eder ve frontend geliştirme ile modüler SCSS yapısını pratik etmek için uygundur.
 
-🔍 Şarkı ve sanatçı arama
+🌟 Özellikler
 
-▶️ Müzik çalma özelliği
+Duyarlı Tasarım (Responsive Design): Mobil, tablet ve masaüstü gibi farklı ekran boyutlarında çalışır.
 
-📱 Responsive tasarım
+Modüler SCSS: Daha iyi kod yönetimi için düzenli SCSS dosyaları.
 
-⭐ Bruno Mars gibi popüler sanatçıların müziklerine erişim
+CSS Grid ve Flexbox: Sayfa düzeni ve hizalama için kullanılmıştır.
 
-Kullanım
+Kullanıcı Arayüzü Öğeleri: Üst menü, yan menü, çalma listesi ve müzik oynatıcı kontrollerini içerir.
 
-Ana sayfa yüklendiğinde popüler müzikler otomatik olarak listelenir
+🛠️ Kullanılan Teknolojiler
 
-Arama çubuğunu kullanarak istediğiniz şarkıyı veya sanatçıyı arayabilirsiniz
+HTML5: Sayfanın yapısı için kullanılır.
 
-Şarkılara tıklayarak müziği çalabilir/durdurabilirsiniz
+JavaScript: Dinamik işlevler ve sayfa etkileşimi için.
 
-Teknolojiler
+SCSS: Daha temiz, modüler ve yeniden kullanılabilir CSS kodları için.
 
-HTML5 - Yapısal içerik
+📂 Proje Dosyaları
 
-CSS3 - Stil ve animasyonlar
+index.html: Ana HTML dosyası.
 
-JavaScript (ES6+) - İşlevsellik ve API entegrasyonu
+style.css: SCSS’ten derlenen CSS dosyası.
 
-Fetch API - HTTP istekleri
+style.css.map: SCSS hata ayıklama için CSS harita dosyası.
 
-Web Audio API - Müzik çalma özelliği
+style.scss: Diğer tüm SCSS dosyalarını içe aktaran ana SCSS dosyası.
+
+📂 styles/ Klasöründeki SCSS Dosyaları
+
+_variables.scss: Renkler, yazı tipleri ve yeniden kullanılabilir stiller için değişkenleri içerir.
+
+_mixin.scss: Duyarlı tasarım ve tekrarlayan işlemler için SCSS mixin’lerini içerir.
+
+_main.scss: Ana içerik alanı için stiller.
+
+_aside.scss: Yan menü (çalma listeleri ve gezinme bağlantıları gibi) için stiller.
+
+_player.scss: Müzik oynatıcı kontrolleri (oynat, duraklat, sonraki vs.) için stiller.
+
+# EKRAN GÖRÜNTÜSÜ
+![EkranKayd2025-09-16221940-ezgif com-cut](https://github.com/user-attachments/assets/79a8758b-3e63-4d84-8225-cfc1ad0d830c)
+
